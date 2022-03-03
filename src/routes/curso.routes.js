@@ -10,7 +10,7 @@ router.post("/", cursoController.createCurso);
 router.delete("/:CursoId", cursoController.deleteCursoById);
 router.put("/:CursoId", cursoController.updateCursoById);
 //cambio
-
+//aloha
 // router.get("/", [authEmployeeJwt.verifyToken, authEmployeeJwt.isDueño], employeeController.getEmployee);
 
 // router.get("/getRol", employeeController.rol);
