@@ -9,6 +9,7 @@ router.get("/",  [authEmployeeJwt.verifyToken, authEmployeeJwt.isDueño], cursoC
 router.post("/", cursoController.createCurso);
 router.delete("/:CursoId", cursoController.deleteCursoById);
 router.put("/:CursoId", cursoController.updateCursoById);
+//cambio
 
 // router.get("/", [authEmployeeJwt.verifyToken, authEmployeeJwt.isDueño], employeeController.getEmployee);
 
